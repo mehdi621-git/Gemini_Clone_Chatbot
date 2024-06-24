@@ -1,0 +1,46 @@
+.messagearea{
+    margin: 30px 0px 40px 0px;
+   padding: 0px;
+   
+    
+}
+.welcome{
+    font-size: 40px;
+    color: #c4c7c5;
+    font-weight: 500;
+}
+.welcome p{
+    margin-bottom: 1px;
+}
+span{
+    background : -webkit-repeating-linear-gradient(16deg,#4b90ff,#ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+    gap: 15px;
+    padding: 10px;
+    margin-top: 40px;
+    
+
+}
+.cards{
+      background-color: #f0f4f9;
+      border-radius: 10px;
+      text-align: center;
+      cursor: pointer;
+      
+
+}
+.iconset{
+    float: right;
+    margin: 4px;
+    border-radius: 5px;
+    background-color: #c4c7c5;
+}
+.cards:hover{
+
+    background-color: #dfe4df;
+}

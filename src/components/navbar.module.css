@@ -1,0 +1,18 @@
+.mainnav{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: fit-content;
+    
+    
+}
+.nav{
+    width: 100%;
+    
+}
+.navdiv{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding-top: 20px;
+}

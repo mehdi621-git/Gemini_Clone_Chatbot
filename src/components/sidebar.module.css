@@ -1,0 +1,77 @@
+#root{
+    
+}
+.Sidebar{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e0bf74;
+    min-height: 100vh;
+    padding: 20px 20px 0px 3px;
+}
+
+.Newchat{
+    
+    display: flex;
+    background-color:#CD9C8A;
+    border-radius: 50px;
+    margin-left: 10px;
+    justify-content: flex-start;
+    cursor: pointer;
+    min-width: max-content;
+   
+}
+.itemstyle{
+    display: flex ;
+    align-items:center ;
+    margin-bottom: 0px;
+    
+}
+.pad{
+    margin:7px;
+}
+.recentmessage{
+    display: flex;
+    padding: 5px;
+    margin-top: 3px;
+    
+    
+}
+.recent{
+    font-size: 15px;
+    font-weight: 1000;
+    margin-left: 0px;
+    margin-top: 30px;
+   
+}
+p{
+    margin-bottom: 0rem;
+}
+.select{
+    margin-left: 15px;
+    margin-bottom: 40px;
+    size: 20;
+    cursor: pointer;
+}
+.bottom{
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.marginbottom{
+    margin-bottom: 5px;
+}
+.deleterecent{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.styledelete{
+    color: rgb(239, 28, 28);
+    
+    margin-left: 60px;
+   
+}
+.styledelete:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.mainfinalmessage{
+     display: flex;
+     flex-direction: column;
+     border-color: black;
+   align-items: flex-start;
+   
+  
+   
+  margin: auto;
+  
+   width: 700px;
+  
+
+}
+
+.title{
+    
+}

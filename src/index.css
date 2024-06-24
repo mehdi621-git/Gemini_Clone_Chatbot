@@ -1,0 +1,55 @@
+#root{
+   display: flex;
+   
+   
+} 
+*{
+    padding :0px;
+    margin: 0px;
+}
+.maincontainer .mainnav{
+    display: flex;
+    flex-direction: column;
+}
+.navmessage{
+    width: 100%;
+}
+.navsearchsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+    max-height: 75vh;
+    overflow-y: scroll;
+}
+.navsearchsec::-webkit-scrollbar{
+    display: none;
+}
+.loadingmain{
+    width: 100%;
+    height: 15px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    background-color: rgb(44, 91, 91);
+    animation: fades 3s ease-in-out  2s infinite;
+
+}
+@keyframes fades {
+    0% {opacity: 90% ;}
+    25%{opacity: 70%;}
+    50% {opacity: 50%;}
+    100%{opacity: 5%;}
+   
+}
+.loadrot{
+    display: flex;
+    flex-direction: column;
+  align-items: flex-start;
+  max-height: 72vh;
+  
+
+ margin: auto;
+ height: 40px;
+  width: 700px;
+}
